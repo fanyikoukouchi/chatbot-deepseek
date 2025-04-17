@@ -1,5 +1,7 @@
 # DeepSeek ChatRobot
 
+[中文文档](README.zh-CN.md)
+
 A modern chat application powered by DeepSeek's large language model, featuring a Vue.js frontend and Python backend.
 
 ## System Architecture
@@ -9,6 +11,15 @@ The system follows a three-tier architecture:
 1. Frontend (Vue.js)
 2. Backend (Python FastAPI)
 3. DeepSeek API Integration
+4. Database (PostgreSQL)
+
+### Database
+The application uses PostgreSQL as its primary database, with the following features:
+- Relational database for structured data storage
+- SQLAlchemy ORM for database operations
+- Connection pooling for better performance
+- Automatic migrations support
+- Backup and recovery capabilities
 
 ### Directory Structure
 ```
